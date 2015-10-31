@@ -1,0 +1,15 @@
+.list-item {
+  margin-bottom: 20px;
+  .btn {
+    margin-right: 10px;
+  }
+
+  &.checked {
+    .btn {
+      opacity: .7
+    }
+    .list-text {
+      text-decoration: line-through;
+    }
+  }
+}
