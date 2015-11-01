@@ -1,28 +1,29 @@
-== README
+React Rails with Flux (Alt) Screencast
+=============
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Blog post: http://www.openmindedinnovations.com/blogs/react-rails-with-flux-alt-js-tutorial
 
-Things you may want to cover:
+Youtube video: https://www.youtube.com/watch?v=LWNiqGrLn0A
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+This is the code for the screencast showing how to integrate [react-rails](https://github.com/reactjs/react-rails) and [Alt.js](http://alt.js.org/) into your rails app. I only use sprockets without npm so it's really simple to setup.
 
 
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+
+Alt (http://alt.js.org/)
+React Rails (https://github.com/reactjs/react-rails)
+Lodash (https://lodash.com/)
+
+Setup
+=============
+
+```
+git clone https://github.com/OpenMindedInnovations/react_rails_flux_screencast.git
+
+cd react_rails_flux_screencast
+
+bundle install
+
+rake db:migrate db:seed
+
+rails s
+```
